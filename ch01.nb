@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1579,         55]
-NotebookOptionsPosition[      1269,         41]
-NotebookOutlinePosition[      1628,         57]
-CellTagsIndexPosition[      1585,         54]
+NotebookDataLength[      2470,         77]
+NotebookOptionsPosition[      2067,         62]
+NotebookOutlinePosition[      2426,         78]
+CellTagsIndexPosition[      2383,         75]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -36,8 +36,29 @@ Cell[BoxData[
      RowBox[{"-", "1"}], ",", "1"}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.7296923457275553`*^9, 3.729692399340762*^9}, {
   3.7296927724152946`*^9, 3.729692810107891*^9}, {3.729692867083794*^9, 
-  3.729692901184169*^9}},ExpressionUUID->"9285da13-4378-487b-921b-\
-df8b24dcc97f"]
+  3.729692901184169*^9}, {3.729693376718646*^9, 
+  3.7296933846306562`*^9}},ExpressionUUID->"9285da13-4378-487b-921b-\
+df8b24dcc97f"],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"ParametricPlot", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Cos", "[", "t", "]"}], ",", 
+       RowBox[{"Sin", "[", "t", "]"}]}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", " ", "0", ",", " ", "a"}], "}"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"a", ",", "0", ",", "\[Pi]"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7296923457275553`*^9, 3.729692399340762*^9}, {
+  3.7296927724152946`*^9, 3.729692810107891*^9}, {3.729692867083794*^9, 
+  3.729692901184169*^9}, {3.729693376718646*^9, 3.7296934329400063`*^9}, {
+  3.729693490122839*^9, 
+  3.7296934955066023`*^9}},ExpressionUUID->"7e35a58d-5fd3-4c38-91c7-\
+9729174bff2e"]
 },
 WindowSize->{808, 905},
 WindowMargins->{{Automatic, 395}, {Automatic, 0}},
@@ -56,10 +77,9 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 707, 19, 30, "Input",ExpressionUUID->"9285da13-4378-487b-921b-df8b24dcc97f"]
+Cell[558, 20, 758, 20, 30, "Input",ExpressionUUID->"9285da13-4378-487b-921b-df8b24dcc97f"],
+Cell[1319, 42, 744, 18, 30, "Input",ExpressionUUID->"7e35a58d-5fd3-4c38-91c7-9729174bff2e"]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
